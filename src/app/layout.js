@@ -24,10 +24,10 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
        <Navbar/>
-        <div className="h-screen">
+        <div >
         {children}
         </div>      
-        <footer> 
+        <footer className="bg-orange-500"> 
           <p>this is footer section</p>
         </footer>
       </body>
