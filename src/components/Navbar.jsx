@@ -25,6 +25,10 @@ const Navbar = () => {
     {
         title:"Protfolio",
         path:"/protfolio"
+    },
+    {
+        title:"Categories",
+        path:"/categories"
     }
 ];
 
